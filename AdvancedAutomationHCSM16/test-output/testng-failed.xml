@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="homeModule.Selecting">
+      <class name="homeModule.TC_ID">
         <methods>
           <include name="tearDownTheBrowser"/>
           <include name="beforeTest"/>
-          <include name="demo12154545"/>
+          <include name="TestCaseDescription"/>
           <include name="launchingBrowser"/>
           <include name="loggingOut"/>
           <include name="navigatingToApp"/>
           <include name="CheckingFailure"/>
         </methods>
-      </class> <!-- homeModule.Selecting -->
+      </class> <!-- homeModule.TC_ID -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
